@@ -27,10 +27,11 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top: 79%;
+    top: 100%;
     right: 40%;
     width: 60vw;
     list-style-type: none;
+    z-index: 10;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -40,7 +41,7 @@
 .lista-menu__titulo, .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
-
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .lista-menu__titulo {

@@ -123,46 +123,71 @@
         </section>
 
         <div class="card2">
-            <div class="card2__descricao2">
-                <div class="descricao2">
-                    <div class="estrelas">
-                        <img src="assets/star.svg" alt="">
-                        <img src="assets/star.svg" alt="">
-                        <img src="assets/star.svg" alt="">
-                        <img src="assets/star.svg" alt="">
-                        <img src="assets/star.svg" alt="">
+            <div class="card2__conteudo">
+                <div class="card2__descricao2">
+                    <div class="descricao2">
+                        <div class="estrelas">
+                            <img src="assets/star.svg" alt="">
+                            <img src="assets/star.svg" alt="">
+                            <img src="assets/star.svg" alt="">
+                            <img src="assets/star.svg" alt="">
+                            <img src="assets/star.svg" alt="">
+                        </div>
+
+                        <div class="descricao2__texto">
+                            <h3 class="descricao2__titulo">Autora do mes</h3>
+                            <h2 class="descricao2__autor">Juliana Agarikov</h2>
+                            <p>Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                        </div>
+
+
                     </div>
+                </div>
 
-                    <div class="descricao2__texto">
-                        <h3 class="descricao2__titulo">Autora do mes</h3>
-                        <h2 class="descricao2__autor">Juliana Agarikov</h2>
-                        <p>Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
-                    </div>
-
-
+                <div class="card2__figuras">
+                    <img src="assets/Perfil-escritora 1.svg" alt="Escritora">
                 </div>
             </div>
 
-            <div class="card2__figuras">
-                <img src="assets/Perfil-escritora 1.svg" alt="Escritora">
-            </div>
-            
-            <!-- <div class="card2__botoes">
+            <div class="card2__botoes">
                 <ul class="botoes">
                     <li class="botoes__item" id="favorito__angular"><img src="assets/Vector.svg" alt=""></li>
                     <li class="botoes__item"><img src="assets/Sacola.svg" alt=""></li>
                 </ul>
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
-            -->
 
         </div>
+        
+        <section class="topicos">
+            <h2 class="topicos__titulo"> Tópicos visitados recentemente</h2>
+            <ul class="topicos__lista">
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">Android</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">JavaScript</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">Python</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">C#</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">PHP</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">HTML e CSS</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">Banco de dados</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">Desenvolvimento Web</a></li>
+                <li class="topicos__lista__item"><a href="#" class="topicos__link">TypeScript</a></li>
+            </ul>
+        </section>
 
+        <section class="contato">
+            <h2 class="contato__titulo">Fique por dentro das novidades! </h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <input type="email" name="email" id="email" placeholder="Cadastre seu e-mail" class="contato__input">
+        </section>
 
-
+        <hr>
 
     </main>
-    <footer></footer>
+    
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Alura</h2>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {

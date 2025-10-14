@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -81,24 +82,37 @@
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 1em;
-    margin: 1em ;
+    margin: 1em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: auto;
-    height: 295px;
-    gap: 0.5em;
-}
+    flex-direction: column;
 
+    width: auto;
+    height: auto;
+
+    gap: 1em;
+}
 
 .card2__descricao2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    gap: 1em;
+
 }
 
+.card2__conteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
 
+.card2__botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 .saiba_mais {
     background-color: var(--laranja);
@@ -113,11 +127,17 @@
     color: var(--laranja);
     font-weight: 700;
     font-size: 18px;
-    margin: 0.5em 0;
+    margin-top: 0.5em;
 }
 
 .descricao2__autor {
     color: var(--azul-escuro);
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 18px;
+}
 
+.descricao2__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
