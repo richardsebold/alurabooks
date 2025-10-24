@@ -68,6 +68,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
@@ -132,5 +136,9 @@
 
     .opcoes {
         margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
